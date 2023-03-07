@@ -1,0 +1,60 @@
+{
+  "name": "4a4b-template",
+  "version": "0.1.0",
+  "description": "4A4B Landing Page Template",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spid3rrr/Landing_Page"
+  },
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "free"
+  ],
+  "author": "Amine Braham",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/css": "^11.1.3",
+    "@emotion/react": "^11.4.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.2.0",
+    "@heroicons/react": "^1.0.1",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "daisyui": "^2.51.3",
+    "embla-carousel": "^7.0.9",
+    "embla-carousel-react": "^7.0.9",
+    "framer-motion": "6.2.4",
+    "i": "^0.3.7",
+    "next": "^11.1.0",
+    "next-themes": "^0.0.14",
+    "r": "^0.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-easy-swipe": "^0.0.23",
+    "react-hook-form": "^7.8.3"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.3.0",
+    "autoprefixer": "^10.0.4",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-twin": "^1.0.2",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.2.2",
+    "twin.macro": "^2.5.0"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion",
+      "includeClassNames": true
+    }
+  }
+}

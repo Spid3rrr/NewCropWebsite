@@ -1,0 +1,15 @@
+.embla {
+    overflow: hidden;
+  }
+.embla__container {
+    display: flex;
+  }
+.embla__slide {
+    flex: 0 0 100%;
+}
+.greyed svg path{
+    fill:grey;
+}
+.greyed {
+    cursor: default;
+}
